@@ -86,7 +86,7 @@
                 
                 var event = event.originalEvent || window.event,    // 이벤트 객체 할당
                     axisXDistace = 0,                               // 현재 x축 기준 이동거리
-                    axisYDistance = 0,                              // 현재 y축 기준 이동거리
+                    axisYDistance = 0;                              // 현재 y축 기준 이동거리
                     
                 if ( event.touches.length === 1 ) {
 
