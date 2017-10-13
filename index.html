@@ -7,45 +7,60 @@
     <title>Document</title>
     <link rel="stylesheet" href="./src/style.css">
     <script src="./src/jquery-latest.js"></script>
-    <script src="./src/polyfill.js"></script>
-    <script src="./src/javascript.js"></script>
+    <script src="./src/touch-slide-es5.js"></script>
 </head>
 <body>
     
     <div id="swipe" data-slide-wrapper>
         <ul>
             <li>
-                <div class="pic1">1</div>
+                <div class="pic1"><span>1</span></div>
             </li>
             <li>
-                <div class="pic2">2</div>
+                <div class="pic2"><span>2</span></div>
             </li>
             <li>
-                <div class="pic3">3</div>
+                <div class="pic3"><span>3</span></div>
             </li>
             <li>
-                <div class="pic4">4</div>
+                <div class="pic4"><span>4</span></div>
             </li>
+            <li>
+                <div class="pic5"><span>5</span></div>
+            </li>
+            <li>
+                <div class="pic6"><span>6</span></div>
+            </li>
+            <li>
+                <div class="pic7"><span>7</span></div>
+            </li>   
         </ul>
     </div>
 
-    <div class="wow1"></div>
-    <div class="wow1"></div>
-
-<script>
-
-// var slide = new SwipeSlide("#swipe", {
-//     width: 320,
-//     mode: 'horizontal'
-// });
-
-$('[data-slide-wrapper]').touchSlide({
-    width: 320,
-    height: 260,
-    mode: 'horizontal'
-});
-
-</script>
+    <div id="swipe" data-slide-wrapper>
+        <ul>
+            <li>
+                <div class="pic1">
+                    <span>1</span>
+                </div>
+            </li>
+            <li>
+                <div class="pic2">
+                    <span>2</span>
+                </div>
+            </li>
+            <li>
+                <div class="pic3">
+                    <span>3</span>
+                </div>
+            </li>
+            <li>
+                <div class="pic4">
+                    <span>4</span>
+                </div>
+            </li>
+        </ul>
+    </div>
 
 </body>
 </html>
